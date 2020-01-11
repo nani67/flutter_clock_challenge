@@ -1,0 +1,37 @@
+name: name_clock
+description: Clock designed for submission in Flutter Clock Challenge
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: JosefinSans
+      fonts:
+        - asset: assets/josefin_sans.ttf
+  assets:
+    - assets/loc_black.png
+    - assets/loc_white.png
+    - assets/temp.png
+    - assets/cloudy.png
+    - assets/foggy.png
+    - assets/rainy.png
+    - assets/snowy.png
+    - assets/sunny.png
+    - assets/thunder.png
+    - assets/windy.png
